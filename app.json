@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "FitTrack",
+    "slug": "fittrack-wellness",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "fittrack",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.fittrack"
+    },
+    "android": {
+      "package": "com.example.fittrack",
+      "adaptiveIcon": {
+        "backgroundColor": "#e9f5ef"
+      }
+    }
+  }
+}
